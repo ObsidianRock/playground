@@ -17,7 +17,16 @@ def vector_sum(vectors):
         result = vector_add(result, vector)
     return result
 
-vector_sum(([1,2,5], [6,1,6]))  # 1+6, 2+1, 5+6
+#vector_sum(([1,2,5], [6,1,6]))  # 1+6, 2+1, 5+6
+
+def scalar_multiply(c, v)
+    return [c * v_i for v_i in v ]
+
+
+def vector_mean(vectors):
+    n = len(vectors)
+    return scalar_multiply(1/n , vector_sum(vectors))
+
 
 if __name__ == '__main__':
 
