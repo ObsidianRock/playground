@@ -1,4 +1,4 @@
-
+import math
 
 
 def vector_add(v, w):
@@ -37,6 +37,11 @@ def sum_of_squares(v):
 
 def magnitude(v):
     return math.sqrt(sum_of_squares(v))
+
+
+def distance(v,w):
+
+    return magnitude(vector_sub(v, w))
 
 
 if __name__ == '__main__':
